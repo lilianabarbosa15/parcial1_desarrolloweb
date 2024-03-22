@@ -1,0 +1,80 @@
+body{
+    /*overflow-x: hidden;*/
+    overflow-y: hidden;
+}
+main {
+    display: grid;
+    background-color: #fafafa;
+}
+
+/*Organización de HEADER*/
+main > header {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #020202a8;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+main > header > h1 { 
+    font-weight: 50;
+    margin: 0px;
+}
+main > header > h2 { 
+    font-weight: 600; 
+    font-size: 31px; 
+    margin: 10px;
+}
+main > header > h5 { 
+    color: #02020260;
+}
+/*------------------*/
+.title{
+    font-weight:bolder;
+    font-size: 20px;
+    color: #020202b9;
+}
+p{
+    font-size: 15px;
+    color: #02020279;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.grid > div {
+    box-shadow: 2px 2px 6px 0px #a3a5ae;
+    height: 200px;
+    width: 300px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 0;
+    border-radius: 0.5em;
+}
+.grid div:nth-child(1) {
+    grid-column: 2/3;
+    grid-row: 1;
+    background: #ffffff;
+    border-top: 5px solid #ea5353;
+}
+.grid div:nth-child(2) {
+    grid-column: 1;
+    grid-row: spam;
+    background: #ffffff;
+    border-top: 5px solid #62dada;
+}
+.grid div:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: spam 1;
+    background: #ffffff;
+    border-top: 5px solid #fc9b1d;
+}
+.grid div:nth-child(4) {
+    grid-column: 3;
+    background: #ffffff;
+    border-top: 5px solid #4a9dfc;
+}
