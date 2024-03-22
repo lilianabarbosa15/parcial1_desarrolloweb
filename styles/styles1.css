@@ -1,5 +1,5 @@
 body{
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 main {
@@ -60,21 +60,33 @@ p{
     grid-row: 1;
     background: #ffffff;
     border-top: 5px solid #ea5353;
+    background-image: url("../images/icon-team-builder.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
 .grid div:nth-child(2) {
     grid-column: 1;
     grid-row: spam;
     background: #ffffff;
     border-top: 5px solid #62dada;
+    background-image: url("../images/icon-supervisor.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
 .grid div:nth-child(3) {
     grid-column: 2/3;
     grid-row: spam 1;
     background: #ffffff;
     border-top: 5px solid #fc9b1d;
+    background-image: url("../images/icon-karma.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
 .grid div:nth-child(4) {
     grid-column: 3;
     background: #ffffff;
     border-top: 5px solid #4a9dfc;
+    background-image: url("../images/icon-calculator.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
